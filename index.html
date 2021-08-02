@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+h3 {
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://cdn.aarp.net/content/dam/aarp/retirement/planning-for-retirement/2018/08/1140-roth-ira.imgcache.rev3cabee21b7a35f2fa2ebb0a3ba98b47d.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+  <div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Retiring a Millionaire</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-spinner"></i> ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> HOW IT WORKS</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-line-chart"></i> THE BENEFITS</a>
+
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-info"></i>LEARN MORE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button"> STARTING A ROTH IRA</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">THE BENEFITS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+    <span class="w3-xxlarge w3-hide-medium w3-hide-large ">Start something that matters</span><br>
+    <span class="w3-xxlarge w3-hide-medium w3-hide-large ">Start something that matters</span><br>
+    <span class="w3-xlarge">Stop wasting time and Retire a millionaire tax-free!</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+ 
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT ROTH IRA'S</h3>
+  <p class="w3-center w3-large">What is a Roth Ira? </p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-key w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Saving for Retirement</p>
+      <p>A Roth IRA is a special retirement account where you pay taxes on money going into your account, and then all future withdrawals are tax-free.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-money w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Beat High Taxes</p>
+      <p>Roth IRAs are best when you think your taxes will be higher in retirement than they are right now.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-street-view w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Contributing</p>
+      <p>You can't contribute to a Roth IRA if you make too much money. In 2020, the limit for singles is $139,000. For married couples, the limit is $206,000</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-institution w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Availability</p>
+      <p>Almost all brokerage ﬁrms, both physical and online, offer a Roth IRA. So do most banks and investment companies.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+     
+<main class='main'>
+
+  <section class='left section'>
+      <h3>STARTING A ROTH IRA.</h3>
+
+    <p>A Roth IRA must be established with an institution that has received IRS approval to offer IRAs. These include banks, brokerage companies, federally insured credit unions, and savings and loan associations.</p>
+    <p>A Roth IRA can be established at any time. But contributions for a tax year must be made by the tax-filing deadline, which is usually on April 15th. </p>
+
+<p>There are two basic documents that must be provided to the IRA owner when an IRA is established:</p>
+
+<p>The IRA disclosure statement and
+the IRA adoption agreement.
+These provide an explanation of the rules and regulations under which the Roth IRA must abide by.These documents also establish an agreement between the IRA owner and the IRA trustee.
+
+
+
+ If you plan on being an active investor and making lots of trades, you want to find a provider that has lower trading costs. 
+
+</p>
+ <a href="#work" class="w3-button w3-black"><i class="fa fa-th"></i> Look at the Benefits </a></p>
+
+
+  </section>
+  <section class='right section'>
+
+     
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/91A9hf0s0Ic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </section>
+
+</main>
+
+     
+      
+     
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">HOW IT WORKS</h3>
+  <p class="w3-center w3-large">Contributing to a Roth Ira.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61eyeoQZLBL.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>What types of contributions are accepted?</h3>
+          <p class="w3-opacity">All regular Roth IRA contributions must be made in cash including checks and they can't be in the form of securities or assets.</p>
+           <p><a href='https://www.investopedia.com/articles/personal-finance/081615/basics-roth-ira-contribution-rules.asp#:~:text=You%20can%20contribute%20to%20a,reason%2C%20from%20a%20Roth%20IRA.'><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Learn More</p></button></a>
+
+
+      
+          
+        
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://turbo.intuit.com/blog/wp-content/uploads/2019/03/roth-ira-chart-01.png" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>How much can I contribute?</h3>
+          <p class="w3-opacity">$6,000 is
+          the maximum annual contribution an individual can make in 2019 and 2020 to a Roth IRA but those 50 years old and up can contribute up to $7,000.</p>
+          <p><a href='https://www.irs.gov/retirement-plans/plan-participant-employee/amount-of-roth-ira-contributions-that-you-can-make-for-2020'><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Learn More</p></button></a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="data:image/png;base64,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" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Are there any age restrictions or limits?</h3>
+          <p class="w3-opacity">Contributions can continue to be made at any age, as long as the Roth Ira owner has earned income. The account holder can maintain the Roth IRA for as ling as they wish and there are no required minimum distributions.</p>
+          <p><a href='https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits#:~:text=For%202019%2C%20the%20limits%20are,less%20than%20this%20dollar%20limit.'><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Learn More</p></button></a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://voya.com/sites/unit.voya.com/files/Assets_HowdoesanIRAwork_infographic_.png" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Does my Roth Ira get taxed?</h3>
+          <p class="w3-opacity">The money invested within the Roth IRA grows tax-free. However, the money you deposit would already be taxed.</p>
+          <p><a href='https://www.investopedia.com/how-roth-ira-taxes-work-4769988#:~:text=While%20the%20two%20differ%20in,for%20both%20contributions%20and%20earnings.'><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Learn More</p></button></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">2nd</span>
+    <br>Most Popular Ira
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">39.9%</span>
+    <br>Individuals Maxed Out Their Contribution
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">43.9m </span>
+    <br>U.S Households Own Atleast One Type of Ira
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">28.5%</span>
+    <br>Individuals Have A Roth Ira
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">THE BENEFITS</h3>
+  <p class="w3-center w3-large">How can Starting a Roth Ira Benefit You?</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://media.brstatic.com/2017/09/25111947/retirement_Checklist-Roth-IRAs-still-good-choice.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <h2>No required minimum distributions.</h2>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://static.fmgsuite.com/media/images/3edd0722-1420-410c-97a5-1bb190b5ce89.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <h2>Tax-free withdrawals.</h2>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.fidelity.com/bin-public/060_www_fidelity_com/images/retirement/contributing-ira-starting-early.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <h2>Can contribute as long as you want.</h2>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2018/07/Backdoor-IRA_Desktop_Final.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <h2>Can leave your Roth IRA as a legacy if you do not need it!</h2>
+    </div>
+  </div>
+
+    
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Eligibility</h3>
+      <p>You must have earned income. To contribute to a Roth or traditional IRA, you must have income from work or "taxable compensation". The maximum annual contribution is your income from work or $6,000 or $7,000 if you're age 50 or older.<br>
+      </p>
+      <p>You must be under the income limit. The amount you can contribute to a Roth IRA begins to shrink at certain thresholds and keeps shrinking as income rises, until you are unable to contribute anymore. <br>
+      </p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa fa-users 3-margin-right"></i>Single, head of household or married filing separately if you didn't live with spouse during the year.	</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%"> < $124,000</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-user-plus w3-margin-right"></i>Married filing jointly or qualifying widow</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%"> < $196,000</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-user w3-margin-right"></i>Married filing separately if you lived with spouse at any time during year</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%"> < $10,000</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  
+ <h3 class="w3-center">Learn More</h3>
+ 
+  <p class="w3-center w3-large">Take a look at some of the Resources Available.</p>
+   <p>
+ <a href="https://www.irs.gov/retirement-plans/roth-iras">
+  <center><img src="https://i.pinimg.com/originals/79/d9/91/79d99193821a46f322a9f58c36f2e945.gif"></center>
+ </a>
+</p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-PQc42Rfw0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/z-53ZTJmDUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+
+ 
+ 
+ 
+  
+  
+    
+    
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+ 
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</div>
+</body>
+</html>
+
+
+
+
